@@ -1,15 +1,20 @@
 .img{
-    width: 1100px; 
+    width: 1070px; 
     display: flex;
     justify-content: space-between;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    box-sizing: border-box;
+    background-color: rgb(252, 251, 250);
+    margin: 0 auto 0;
+
 }
+
 div>img{
     width: 120px;
     height: 100px;
 }
 .nav{
-    width: 1175px;
+    width: 1150px;
     margin: 0 auto 0;
 }
 div > ul{
@@ -33,10 +38,13 @@ div > ul > li > a{
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 2px 2px rgb(205, 232, 241);
+    box-sizing: border-box;
+    background-color: rgb(252, 251, 250);
 } 
-.select{
+/* .select{
     width: 520px;
-}
+} */
 button {
     background-color: #28a745;
     color: white;
@@ -50,7 +58,8 @@ button:hover {
     background-color: #218838;
 }
 .size{
-margin-left: 120px;
+margin-left: 130px;
+margin-bottom: 3px;
 }
 .div{
     font-family: Arial, sans-serif;
