@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="task.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Task</title>
+</head>
+<body>
+     <header>
+    <nav>
+        <div class="center">
+            <div class="img">
+              <img src="ict.png" alt="">
+              <img src="images.jpg" alt="">
+              <img src="download.jpg" alt="">
+            </div>
+          </div>
+        <div class="nav">   
+            <ul>
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">Course Module - 2025</a></li>
+                <li><a href="http://"> Class Schedule</a></li>
+                <li><a href="http://">success Story</a></li>
+                <li><a href="http://"><label for="">Attendance</label>
+                    <select id="">
+                      <option></option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select></li></a>
+                <li><a href="http://">FAQ</a></li>
+                <li><a href="http://">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <main>
+        <h1 class="size">Student Registration Form</h1>
+        <h2 class="size">Please enter relevant information</h2>
+        <h5 class="size">Mandatory Fields*</h5> 
+        <div class="div">
+            <div>
+                <form>   
+                    <label>District (Institute District: Where you want to do your course)*</label>
+                    <select class="select input" required>
+                        <option selected>--Select One--</option>
+                        <option>Dhaka</option>
+                        <option>Khulna</option>
+                        <option>Chuadanga</option>
+                    </select>  
+                    <label>Course*</label>
+                    <select class="select  input" required>
+                        <option selected>--Select One--</option>
+                        <option>Javascript</option>
+                        <option>PHP</option>
+                    </select>
+                    <label for="name">Student Name*</label>
+                    <input class="input" type="text" id="name" name="name" required>
+                    
+                    <label for="name1">Father Name*</label>
+                    <input class="input"  type="text" id="name1" name="name1" required>
+                    
+                    <label for="name2">Mother Name*</label>
+                    <input class="input" type="text" id="name2" name="name2" required>
+                    
+                    <label for="email">Email*</label>
+                    <input class="input" type="email" id="email" name="email" required>
+                      
+                    <div>
+                        <label for="gerder">Gender*</label>
+                        <input type="radio" name="" id="" value="male">Male
+                        <input type="radio" name="" id="" value="female">Female
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Did you participate in the 15 days literacy training of LEDP?*</label>
+                        <input type="radio" name="" id="" value="">Yes
+                        <input type="radio" name="" id="" value="">No
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Physically Handicapped*</label>
+                        <input type="radio" name="" id="" value="">Yes
+                        <input type="radio" name="" id="" value="">No
+                    </div>
+                  <br>
+                    <label for="phone">Phone (Must be 11 Digits)*</label>
+                    <input class="input" type="number" id="phone" name="phone" required>
+                    
+                    
+                    <label for="dob">Date of Birth:</label>
+                    <input class="input" type="date" id="dob" name="dob" required>
+                </form>
+            </div>  
+                <div>
+                    <form>
+                        <label>Identification Type*</label>
+                        <select class="select input" required>
+                            <option selected>Select One</option>
+                            <option>NID</option>
+                            <option>Birth Certificate</option>
+                        </select>
+                        
+                        <label for="">Identification No.*</label>
+                        <input class="input">
+                        
+                        <label>Home District*</label>
+                        <select class="select input" required>
+                            <option selected>Select One</option>
+                            <option>Dhaka</option>
+                            <option>Khulna</option>
+                        </select>
+                        
+                        
+                        <label>Home District*</label>
+                        <select class="select input" required>
+                            <option selected>Select One</option>
+                            <option>Chuadanga</option>
+                            <option>Damurhuda</option>
+                        </select>
+
+                        <label for="address">Village/House No./Road No./Other Alternative*</label>
+                        <input class="input" type="text" id="address" name="address" required>
+                        
+                        <label for="">Post Office*</label>
+                        <input class="input" type="" id="" name="" required>
+
+                        <label>Educational Qualification* (Higher Level)</label>
+                        <select class="select input" required>
+                        <option selected>Select One</option>
+                        <option>High School</option>
+                        <option>Collage</option>
+                        <option>Bachelor's Degree</option>
+                        </select>
+
+                        <div>
+                            <label for="">Have any computer?*</label>
+                            <input type="radio" name="" id="" value="">Yes
+                            <input type="radio" name="" id="" value="">No
+                        </div>
+                       <br>
+                        <label for="">Photograph*</label>
+                        <input class="input"  type="file" id="" name="" required>
+                       
+                       
+                        <label for="">Signature*</label>
+                        <input class="input"  type="file" id="" name="" required>
+                
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>     
+    </main>
+</body>
+</html>
